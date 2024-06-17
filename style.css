@@ -1,1 +1,4 @@
-
+h3 {
+	/* SP:2rem | TB:2.5rem | PC:3rem */
+	font-size: calc(1.25vw + 1.5rem);
+}
