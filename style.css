@@ -1,3 +1,13 @@
+@font-face {
+	font-family: "myfont";
+	src: url("../fonts/NotoSerifJP-VariableFont_wght.ttf") format("truetype");
+  }
+
+html {
+	height: 100%;
+	font-family: "myfont", sans-serif;
+	background: #b9adaf;
+}
 
 body {
 	margin: 0;
@@ -5,14 +15,21 @@ body {
 	height: 100%;
 	text-align: center;
 }
-h3 {
-	/* SP:2rem | TB:2.5rem | PC:3rem */
+h2 {
+	text-align: left;
+	margin-left: 5%;
+}
+p {
+	/* SP:2rem | TB:2.5rem | PC:3rem フォントサイズを調整*/
 	font-size: calc(1.25vw + 1.5rem);
 }
 footer {
 	position: sticky;
 	top: 100vh;
 	width: 100%;
-    background: #665e5e;
-	text-align: center;
+	height: calc(3.75vw + 4.5rem);
+    background: #163662;
+	display: flex;
+	justify-content: center; /*flexboxを使って左右中央よせ*/
+    align-items: center; /*flexboxを使って上下中央よせ*/
 }
