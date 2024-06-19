@@ -27,7 +27,7 @@ footer {
 	position: sticky;
 	top: 100vh;
 	width: 100%;
-	height: calc(3.75vw + 4.5rem);
+	height: 15vh;
     background: #163662;
 	display: flex;
 	justify-content: center; /*flexboxを使って左右中央よせ*/
@@ -158,7 +158,7 @@ body {
 	/* メニューの位置マイナス指定で画面外に */
 	transform : translateX(130%);
 	width: 70%;
-	height: 100vh;
+	height: 50vh;  /*高さを変えた*/
 	/* メニューを縦に */
 	display: flex;
 	flex-direction: column;
@@ -195,7 +195,7 @@ body {
 	}
   
 	.menu {
-	  position: fixed;
+	  position: sticky; /*PCメニューを上部に固定できるように変更*/
 	  transform : translateX(0);
 	  width: 100%;
 	  height: 100px;
