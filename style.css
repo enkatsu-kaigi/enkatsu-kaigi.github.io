@@ -172,7 +172,7 @@ body {
   .menu {
 	position: fixed;
 	/* メニューの位置マイナス指定で画面外に */
-	transform : translateX(130%);
+	transform : translateX(100%);
 
 	width: 100%;
 	height: 50vh;  /*高さを変えた*/
@@ -202,7 +202,7 @@ body {
   
   /***** メニューオープン時位置0にして画面内に *****/
   .menu.open {
-	transform: translateX(-5%);
+	transform: translateX(0%);
   }
   
   /* 600px以上はハンバーガーボタン非表示、ヘッダー固定 */
@@ -212,7 +212,7 @@ body {
 	}
   
 	.menu {
-	  position: sticky; /*PCメニューを上部に固定できるように変更*/
+	  position: sticky;
 	  transform : translateX(0);
 	  padding: 0px;
 	  width: 100%;
