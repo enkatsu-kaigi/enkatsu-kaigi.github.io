@@ -1,6 +1,8 @@
 @font-face {
 	font-family: "myfont";
 	src: url("../fonts/NotoSerifJP-VariableFont_wght.ttf") format("truetype");
+	font-family: "myfont2";
+	src: url('../fonts/NotoSerifJP-Light.ttf') format('truetype');
   }
 
 html {
@@ -8,21 +10,34 @@ html {
 	font-family: "myfont", sans-serif;
 	background: #b9adaf;
 }
-
 body {
 	margin: 0;
 	padding: 0;
 	height: 100%;
 	text-align: center;
+	font-size: 2.5vh;
 }
-h2 {
+header {
 	text-align: left;
-	margin-left: 5%;
+	margin-left: 5vw;
 }
-p {
-	/* SP:2rem | TB:2.5rem | PC:3rem フォントサイズを調整*/
-	font-size: calc(1.25vw + 1.5rem);
+
+.catch {
+	font-family:"myfont2";
+	font-size: 3vh;
+	margin: 8.5%
 }
+
+a  {
+	color: black;
+}
+
+
+
+
+
+
+
 footer {
 	position: sticky;
 	top: 100vh;
@@ -157,7 +172,8 @@ body {
 	position: fixed;
 	/* メニューの位置マイナス指定で画面外に */
 	transform : translateX(130%);
-	width: 70%;
+
+	width: 100%;
 	height: 50vh;  /*高さを変えた*/
 	/* メニューを縦に */
 	display: flex;
@@ -185,7 +201,7 @@ body {
   
   /***** メニューオープン時位置0にして画面内に *****/
   .menu.open {
-	transform: translateX(30%);
+	transform: translateX(-5%);
   }
   
   /* 600px以上はハンバーガーボタン非表示、ヘッダー固定 */
@@ -197,6 +213,7 @@ body {
 	.menu {
 	  position: sticky; /*PCメニューを上部に固定できるように変更*/
 	  transform : translateX(0);
+	  padding: 0px;
 	  width: 100%;
 	  height: 100px;
 	  /* メニューを横に */
@@ -205,3 +222,4 @@ body {
 	}
   }
   /**************** ここまで、メニューのスタイリング ****************/
+  /*5パーメニュー余白できるのなんとかしたい*/
