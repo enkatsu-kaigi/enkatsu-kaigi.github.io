@@ -47,6 +47,7 @@ footer {
 	display: flex;
 	justify-content: center; /*flexboxを使って左右中央よせ*/
     align-items: center; /*flexboxを使って上下中央よせ*/
+	font-size: 2vh;
 }
 
 /*ボタン*/ 
