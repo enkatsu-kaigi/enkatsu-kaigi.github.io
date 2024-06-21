@@ -170,7 +170,7 @@ header {
 
 
 .catch {
-	font-family:"myfont2";
+	font-family:"myfont2", serif;
 	font-size: 3vh;
 	margin: 25%
 }
