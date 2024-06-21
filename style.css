@@ -169,7 +169,7 @@ header {
 
 
 
-.catch {
+.fade-text {
 	font-family:"myfont2", serif;
 	font-size: 3vh;
  display: block;
@@ -182,7 +182,7 @@ header {
  background-size: 300% 300%;
 }
 
-.catch.to__right {
+.fade-text.to__right {
   background-image: linear-gradient(to right, #fff 30%, rgba(255, 255, 255, 0) 60%);
   background-position: left 100% center;
   transform: translate(-20px, 0);
