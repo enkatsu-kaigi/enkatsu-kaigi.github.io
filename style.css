@@ -1,9 +1,4 @@
-@font-face {
-	font-family: "myfont";
-	src: url("../fonts/NotoSerifJP-VariableFont_wght.ttf") format("truetype");
-	font-family: "myfont2";
-	src: url('../fonts/NotoSerifJP-Light.ttf') format('truetype');
-  }
+
 
 html {
 	height: 100%;
@@ -19,6 +14,13 @@ body {
 	font-size: 2.5vh;
 	line-height: 4vh;
 }
+
+@font-face {
+	font-family: "myfont";
+	src: url("../fonts/NotoSerifJP-VariableFont_wght.ttf") format("truetype");
+	font-family: "myfont2";
+	src: url('../fonts/NotoSerifJP-Light.ttf') format('truetype');
+  }
 
 /*li, ur修正*/
 ul{
