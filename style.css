@@ -167,7 +167,12 @@ header {
 	line-height: 5vh;
 }
 
-
+@keyframes toRight {
+  100% {
+    transform: translate(0, 0);
+    background-position: left 0% center;
+  }
+}
 
 .fade-text {
 	font-family:"myfont2", serif;
