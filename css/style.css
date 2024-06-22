@@ -223,6 +223,9 @@ a  {
 	color: black; /*リンクの色を黒から変化させない*/
 }
 
+.web-link {
+	font-size: 2vh;
+}
 
 
 footer {
