@@ -240,3 +240,45 @@ footer {
 	font-size: 2vh;
 }
 
+.txt {
+    margin-bottom: 800px;
+}
+/* フェードインさせる要素 */
+.actor1 {
+    width: 80vw;
+    height: 250px;
+    background-color: red;
+	margin: auto;
+	margin-bottom: 15vh;
+    opacity: 0; /* 最初は非表示にしておく */
+    transition: all 2s; /* 動きを滑らかに */
+	
+}
+
+.actor2 {
+    width: 80vw;
+    height: 250px;
+    background-color: green;
+	margin: auto;
+    margin-bottom: 15vh;
+    opacity: 0; /* 最初は非表示にしておく */
+    transition: all 2s; /* 動きを滑らかに */
+	
+}
+
+.actor3 {
+    width: 80vw;
+    height: 250px;
+    background-color: blue;
+	margin: auto;
+    margin-bottom: 15vh;
+    opacity: 0; /* 最初は非表示にしておく */
+    transition: all 2s; /* 動きを滑らかに */
+	
+}
+
+
+/* フェードイン用のクラス */
+.fadeIn {
+    opacity: 1;
+}
