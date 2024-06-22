@@ -239,7 +239,7 @@ footer {
 	justify-content: center; /*flexboxを使って左右中央よせ*/
     align-items: center; /*flexboxを使って上下中央よせ*/
 	font-size: 2vh;
-	border-top: 1px solid;
+	border-top: 1px solid; /*フッター上線追加*/
 }
 
 .txt {
@@ -303,4 +303,12 @@ footer {
 /* フェードイン用のクラス */
 .fadeIn {
     opacity: 1;
+}
+
+.SNS1 {
+     width: 400px;
+	 height: 300px;
+	 margin: auto;
+	 margin-top: 5vh;
+	 border: 1px solid;
 }
