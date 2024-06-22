@@ -52,8 +52,8 @@ header {
 	font-size: 2.7vh;
 	margin-top: -5vh; /*強引にmarginマイナスにしてヘッダー上余白消した*/
 	margin-bottom: 5vh;
-	padding-top: 3%;
-	padding-bottom: 3%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -245,9 +245,10 @@ footer {
 }
 /* フェードインさせる要素 */
 .actor1 {
-    width: 80vw;
-    height: 250px;
-    background-color: red;
+    width: 70%;
+    height: 40%;
+    background-image:url("../images/maruo.jpeg");
+	background-position: center;
 	margin: auto;
 	margin-bottom: 15vh;
     opacity: 0; /* 最初は非表示にしておく */
@@ -256,8 +257,8 @@ footer {
 }
 
 .actor2 {
-    width: 80vw;
-    height: 250px;
+    width: 70%;
+    height: 40%;
     background-color: green;
 	margin: auto;
     margin-bottom: 15vh;
@@ -267,8 +268,8 @@ footer {
 }
 
 .actor3 {
-    width: 80vw;
-    height: 250px;
+    width: 70%;
+    height: 40%;
     background-color: blue;
 	margin: auto;
     margin-bottom: 15vh;
@@ -276,7 +277,26 @@ footer {
     transition: all 2s; /* 動きを滑らかに */
 	
 }
-
+.actor4 {
+    width: 70%;
+    height: 40%;
+    background-color: blue;
+	margin: auto;
+    margin-bottom: 15vh;
+    opacity: 0; /* 最初は非表示にしておく */
+    transition: all 2s; /* 動きを滑らかに */
+	
+}
+.actor5 {
+    width: 70%;
+    height: 40%;
+    background-color: blue;
+	margin: auto;
+    margin-bottom: 15vh;
+    opacity: 0; /* 最初は非表示にしておく */
+    transition: all 2s; /* 動きを滑らかに */
+	
+}
 
 /* フェードイン用のクラス */
 .fadeIn {
