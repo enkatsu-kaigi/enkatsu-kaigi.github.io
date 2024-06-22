@@ -35,7 +35,8 @@ li{
 
 .title {
 	text-align: left;
-	margin-left: 5vh
+	line-height: 4vh;
+	margin-left: 3vh
   }
 
 .catch-copy {
@@ -191,17 +192,30 @@ p {
 	margin-top: 1em;
 }
 
+.mt3 {
+	margin-top: 3em;
+}
+
 .mt5 {
 	margin-top: 5em;
 }
 
+.box1 {
+	border: 0.7vh double;
+	border-radius: 1vh;
+	margin-top: 10%;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding: 5%;
+}
 .spacing {
-	margin: 10vh;
+	margin: 7vh;
 }
 
 a  {
 	color: black; /*リンクの色を黒から変化させない*/
 }
+
 
 
 footer {
