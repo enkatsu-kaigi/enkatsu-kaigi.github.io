@@ -205,7 +205,7 @@ p {
 .box1 {
 	border: 0.7vh double;
 	border-radius: 1vh;
-	font-size: 1.8vw;
+	font-size: calc(1rem+1vw);
 	width: 75vw;
 	text-align: center;
 	margin-left: auto;
