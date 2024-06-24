@@ -1,56 +1,56 @@
 /* フェードインさせる要素 */
 /*横からのフェードイン：　https://the-zombis.sakura.ne.jp/wp/blog/2019/07/29/post-3829/　*/
 .actor-a {
-    width: 28vh;
-    height: 7vh;
+    width: 480px;
+    height: 120px;
     background-image:url("../images/1a.png");
 	background-position: center;
 	margin: auto;
 	margin-bottom: 1vh;
     opacity: 0; /* 最初は非表示にしておく */
     transition: all 2s; /* 動きを滑らかに */
-    transform:translateX(90px); /* 最初は元の位置より右にずらしておく */
+    transform:translateX(10px); /* 最初は元の位置より右にずらしておく */
 	
 }
 
 .actor-b {
-    width: 28vh;
-    height: 7vh;
+    width: 480px;
+    height: 120px;
     background-image:url("../images/1b.png");
 	background-position: center;
 	margin: auto;
 	margin-bottom: 1vh;
     opacity: 0; /* 最初は非表示にしておく */
     transition: all 2s; /* 動きを滑らかに */
-    transform:translateX(-90px); /* 最初は元の位置より左にずらしておく */
+    transform:translateX(-10px); /* 最初は元の位置より左にずらしておく */
 	
 }
 .actor-c {
-    width: 28vh;
-    height: 7vh;
+    width: 480px;
+    height: 120px;
     background-image:url("../images/1c.png");
 	background-position: center;
 	margin: auto;
 	margin-bottom:1vh;
     opacity: 0; /* 最初は非表示にしておく */
     transition: all 2s; /* 動きを滑らかに */
-	transform:translateX(90px); /* 最初は元の位置より右にずらしておく */
+	transform:translateX(10px); /* 最初は元の位置より右にずらしておく */
 }
 .actor-d {
-    width: 28vh;
-    height: 7vh;
+    width: 480px;
+    height: 120px;
     background-image:url("../images/1d.png");
 	background-position: center;
 	margin: auto;
 	margin-bottom: 15vh;
     opacity: 0; /* 最初は非表示にしておく */
     transition: all 2s; /* 動きを滑らかに */
-	transform:translateX(-90px); /* 最初は元の位置より左にずらしておく */
+	transform:translateX(-10px); /* 最初は元の位置より左にずらしておく */
 }
 
 .actor1 {
-    width: 28vh;
-    height: 28vh;
+    width: 480px;
+    height: 480px;
     background-image:url("../images/2.jpeg");
 	background-position: center;
 	margin: auto;
@@ -61,8 +61,8 @@
 }
 
 .actor2 {
-    width: 28vh;
-    height: 28vh;
+    width: 480px;
+    height: 480px;
     background-image:url("../images/2.jpeg");
 	background-position: center;
 	margin: auto;
@@ -73,8 +73,8 @@
 }
 
 .actor3 {
-    width: 28vh;
-    height: 28vh;
+    width: 480px;
+    height: 480px;
     background-image:url("../images/2.jpeg");
 	background-position: center;
 	margin: auto;
@@ -84,8 +84,8 @@
 	
 }
 .actor4 {
-    width: 28vh;
-    height: 28vh;
+    width: 480px;
+    height: 480px;
     background-image:url("../images/2.jpeg");
 	background-position: center;
 	margin: auto;
@@ -95,8 +95,8 @@
 	
 }
 .actor5 {
-    width: 28vh;
-    height: 28vh;
+    width: 480px;
+    height: 480px;
     background-image:url("../images/2.jpeg");
 	background-position: center;
 	margin: auto;
