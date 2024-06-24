@@ -240,7 +240,13 @@ footer {
 .SNS1 {
 	width: 400px;
 	height: 300px;
-	margin: auto;
+	margin-left: 10%;
+	margin-right: 10%;
 	margin-top: 5vh;
 	border: 1px solid;
+}
+
+.margin-side {
+	margin-left: 10%;
+	margin-right: 10%;
 }
