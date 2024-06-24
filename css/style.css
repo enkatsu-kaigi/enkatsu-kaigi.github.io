@@ -77,7 +77,7 @@ header {
   .gnavi__sp-style {
 	display: none;
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1200px) {
   .gnavi__pc-style {
 	display: none;    
   }
