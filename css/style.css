@@ -176,11 +176,6 @@ header {
   }
   }
 
-  
-  
-
-
-
 
 p {
 	line-height: 5vh;　/*行間設定*/
@@ -242,73 +237,10 @@ footer {
 	border-top: 1px solid; /*フッター上線追加*/
 }
 
-.txt {
-    margin-bottom: 800px;
-}
-/* フェードインさせる要素 */
-.actor1 {
-    width: 70%;
-    height: 40%;
-    background-image:url("../images/maruo.jpeg");
-	background-position: center;
-	margin: auto;
-	margin-bottom: 15vh;
-    opacity: 0; /* 最初は非表示にしておく */
-    transition: all 2s; /* 動きを滑らかに */
-	
-}
-
-.actor2 {
-    width: 70%;
-    height: 40%;
-    background-color: green;
-	margin: auto;
-    margin-bottom: 15vh;
-    opacity: 0; /* 最初は非表示にしておく */
-    transition: all 2s; /* 動きを滑らかに */
-	
-}
-
-.actor3 {
-    width: 70%;
-    height: 40%;
-    background-color: blue;
-	margin: auto;
-    margin-bottom: 15vh;
-    opacity: 0; /* 最初は非表示にしておく */
-    transition: all 2s; /* 動きを滑らかに */
-	
-}
-.actor4 {
-    width: 70%;
-    height: 40%;
-    background-color: blue;
-	margin: auto;
-    margin-bottom: 15vh;
-    opacity: 0; /* 最初は非表示にしておく */
-    transition: all 2s; /* 動きを滑らかに */
-	
-}
-.actor5 {
-    width: 70%;
-    height: 40%;
-    background-color: blue;
-	margin: auto;
-    margin-bottom: 15vh;
-    opacity: 0; /* 最初は非表示にしておく */
-    transition: all 2s; /* 動きを滑らかに */
-	
-}
-
-/* フェードイン用のクラス */
-.fadeIn {
-    opacity: 1;
-}
-
 .SNS1 {
-     width: 400px;
-	 height: 300px;
-	 margin: auto;
-	 margin-top: 5vh;
-	 border: 1px solid;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	margin-top: 5vh;
+	border: 1px solid;
 }
