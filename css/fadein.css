@@ -1,8 +1,8 @@
 /* フェードインさせる要素 */
 /*横からのフェードイン：　https://the-zombis.sakura.ne.jp/wp/blog/2019/07/29/post-3829/　*/
 .actor-a {
-    width: 480px;
-    height: 120px;
+    width: 80%;
+    height: 10%;
     background-image:url("../images/1a.png");
 	background-position: center;
 	margin: auto;
