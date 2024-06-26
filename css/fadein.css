@@ -56,25 +56,23 @@
     transition: all 2s; /* 動きを滑らかに */
     aspect-ratio: 5 / 3; /*アスペクト比を固定*/
 }
-	
-}
 
 .actor2 {
     background-image:url("../images/2.jpeg");
 	background-position: center;
-	margin: auto;
-    margin-bottom: 15vh;
+	margin-left: 10%;
+    margin-right: 10%;
+	margin-bottom: 15vh;
     opacity: 0; /* 最初は非表示にしておく */
     transition: all 2s; /* 動きを滑らかに */
     aspect-ratio: 5 / 3; /*アスペクト比を固定*/
 }
 
 .actor3 {
-    width: 80%;
-    height: 60%;
     background-image:url("../images/2.jpeg");
 	background-position: center;
-	margin: auto;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 15vh;
     opacity: 0; /* 最初は非表示にしておく */
     transition: all 2s; /* 動きを滑らかに */
@@ -83,7 +81,8 @@
 .actor4 {
     background-image:url("../images/2.jpeg");
 	background-position: center;
-	margin: auto;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 15vh;
     opacity: 0; /* 最初は非表示にしておく */
     transition: all 2s; /* 動きを滑らかに */
@@ -92,7 +91,8 @@
 .actor5 {
     background-image:url("../images/2.jpeg");
 	background-position: center;
-	margin: auto;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 15vh;
     opacity: 0; /* 最初は非表示にしておく */
     transition: all 2s; /* 動きを滑らかに */
