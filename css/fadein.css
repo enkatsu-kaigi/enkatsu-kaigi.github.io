@@ -1,51 +1,49 @@
 /* フェードインさせる要素 */
 /*横からのフェードイン：　https://the-zombis.sakura.ne.jp/wp/blog/2019/07/29/post-3829/　*/
 .actor-a {
-    width: 80%;
-    height: 15%;
     background-image:url("../images/1a.png");
 	background-position: center;
-	margin: auto;
+	margin-left: 10%;
+    margin-right: 10%;
 	margin-bottom: 1vh;
     opacity: 0; /* 最初は非表示にしておく */
     transition: all 2s; /* 動きを滑らかに */
     transform:translateX(90px); /* 最初は元の位置より右にずらしておく */
-	
+	aspect-ratio: 4 / 1; /*アスペクト比を固定*/
 }
 
 .actor-b {
-    width: 80%;
-    height: 15%;
     background-image:url("../images/1b.png");
 	background-position: center;
-	margin: auto;
+	margin-left: 10%;
+    margin-right: 10%;
 	margin-bottom: 1vh;
     opacity: 0; /* 最初は非表示にしておく */
     transition: all 2s; /* 動きを滑らかに */
     transform:translateX(-90px); /* 最初は元の位置より左にずらしておく */
-	
+	aspect-ratio: 4 / 1; /*アスペクト比を固定*/
 }
 .actor-c {
     background-image:url("../images/1c.png");
 	background-position: center;
     margin-left: 10%;
     margin-right: 10%;
-	margin-bottom:1 vh;
+	margin-bottom: 1vh;
     opacity: 0; /* 最初は非表示にしておく */
     transition: all 2s; /* 動きを滑らかに */
 	transform:translateX(90px); /* 最初は元の位置より右にずらしておく */
     aspect-ratio: 4 / 1; /*アスペクト比を固定*/
 }
 .actor-d {
-    width: 80%;
-    height: 15%;
     background-image:url("../images/1d.png");
 	background-position: center;
-	margin: auto;
-	margin-bottom: 15vh;
+	margin-left: 10%;
+    margin-right: 10%;
+	margin-bottom: 10%;
     opacity: 0; /* 最初は非表示にしておく */
     transition: all 2s; /* 動きを滑らかに */
 	transform:translateX(-90px); /* 最初は元の位置より左にずらしておく */
+    aspect-ratio: 4 / 1; /*アスペクト比を固定*/
 }
 
 .actor1 {
@@ -53,10 +51,12 @@
     height: 60%;
     background-image:url("../images/2.jpeg");
 	background-position: center;
-	margin: auto;
+	margin-left: 10%;
+    margin-right: 10%;
 	margin-bottom: 15vh;
     opacity: 0; /* 最初は非表示にしておく */
     transition: all 2s; /* 動きを滑らかに */
+    
 	
 }
 
