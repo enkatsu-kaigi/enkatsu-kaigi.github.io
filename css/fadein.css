@@ -26,15 +26,15 @@
 	
 }
 .actor-c {
-    width: 80%;
-    height: 15%;
     background-image:url("../images/1c.png");
 	background-position: center;
-	margin: auto;
-	margin-bottom:1vh;
+    margin-left: 10%;
+    margin-right: 10%;
+	margin-bottom:1 vh;
     opacity: 0; /* 最初は非表示にしておく */
     transition: all 2s; /* 動きを滑らかに */
 	transform:translateX(90px); /* 最初は元の位置より右にずらしておく */
+    aspect-ratio: 4 / 1; /*アスペクト比を固定*/
 }
 .actor-d {
     width: 80%;
