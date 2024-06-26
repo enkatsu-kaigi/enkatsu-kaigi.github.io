@@ -47,7 +47,7 @@
 }
 
 .actor1 {
-    background-image:url("../images/2.jpeg");
+    background-image:url("../images/1.jpg");
 	background-position: center;
 	margin-left: 10%;
     margin-right: 10%;
@@ -58,7 +58,7 @@
 }
 
 .actor2 {
-    background-image:url("../images/2.jpeg");
+    background-image:url("../images/2.jpg");
 	background-position: center;
 	margin-left: 10%;
     margin-right: 10%;
@@ -69,7 +69,7 @@
 }
 
 .actor3 {
-    background-image:url("../images/2.jpeg");
+    background-image:url("../images/3.jpg");
 	background-position: center;
     margin-left: 10%;
     margin-right: 10%;
@@ -79,7 +79,7 @@
     aspect-ratio: 5 / 3; /*アスペクト比を固定*/
 }
 .actor4 {
-    background-image:url("../images/2.jpeg");
+    background-image:url("../images/4.jpg");
 	background-position: center;
     margin-left: 10%;
     margin-right: 10%;
@@ -89,7 +89,7 @@
     aspect-ratio: 5 / 3; /*アスペクト比を固定*/
 }
 .actor5 {
-    background-image:url("../images/2.jpeg");
+    background-image:url("../images/5.jpg");
 	background-position: center;
     margin-left: 10%;
     margin-right: 10%;
@@ -98,6 +98,19 @@
     transition: all 2s; /* 動きを滑らかに */
     aspect-ratio: 5 / 3; /*アスペクト比を固定*/
 }
+
+.actor6 {
+    background-image:url("../images/5.jpg");
+	background-position: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 15vh;
+    opacity: 0; /* 最初は非表示にしておく */
+    transition: all 2s; /* 動きを滑らかに */
+    aspect-ratio: 5 / 3; /*アスペクト比を固定*/
+}
+
+
 
 /* フェードイン用のクラス */
 .fadeIn {
