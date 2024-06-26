@@ -39,11 +39,22 @@ li{
 	margin-left: 35px;
   }
 
+#title2{
+	text-decoration-line: none;
+  }
+
 .catch-copy {
 	font-family: "myfont2", serif;
 	margin-top: 17vh;
 	margin-bottom: 20vh;
+	opacity: 0.1; /* 最初は非表示にしておく */
+	transition: all 1.3s; /* 動きを滑らかに */
   }
+
+  /* フェードイン用のクラス */
+.fadeIn {
+    opacity: 1;
+}
 
 
 header {
@@ -212,7 +223,7 @@ p {
 
 
 .spacing {
-	margin: 7vh;
+	margin: 3vh;
 }
 
 a  {
@@ -250,3 +261,4 @@ footer {
 	margin-left: 10%;
 	margin-right: 10%;
 }
+
