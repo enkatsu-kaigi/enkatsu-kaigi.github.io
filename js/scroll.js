@@ -19,7 +19,9 @@ $(function () {
         });
     });
 });
-
+$(".actor-a").on("click", function () {
+    $(this).toggleClass("change");
+  });
 
 
 
