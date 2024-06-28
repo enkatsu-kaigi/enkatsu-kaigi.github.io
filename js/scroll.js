@@ -46,6 +46,10 @@ $(function () {
         });
     });
 });
+$(".actor-b").on("click", function () {
+    $(this).toggleClass("change");
+  });
+
 //actor-c//
 $(function () {
     // ウィンドウをスクロールしたら…
@@ -66,6 +70,10 @@ $(function () {
         });
     });
 });
+$(".actor-c").on("click", function () {
+    $(this).toggleClass("change");
+  });
+
 //actor-d//
 $(function () {
     // ウィンドウをスクロールしたら…
@@ -86,6 +94,10 @@ $(function () {
         });
     });
 });
+$(".actor-d").on("click", function () {
+    $(this).toggleClass("change");
+  });
+
 
 
 

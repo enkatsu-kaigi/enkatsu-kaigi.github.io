@@ -28,7 +28,7 @@
 }
 
 .actor-b {
-    background-image:url("../images/1b.png");
+    background-image:url("../images/1b_s.png");
 	background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -41,9 +41,21 @@
     transform:translateX(-90px); /* 最初は元の位置より右にずらしておく */
 	aspect-ratio: 4 / 1; /*アスペクト比を固定*/
 }
+.actor-b.change {
+    background-image:url("../images/1b.png");
+	background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80vw;
+	margin-left: 10vw;
+    margin-right: 10vw;
+	margin-bottom: 1.5vh ;
+    opacity: 1; /* 最初は非表示にしておく */
+	aspect-ratio: 4 / 1; /*アスペクト比を固定*/
+}
 
 .actor-c {
-    background-image:url("../images/1c.png");
+    background-image:url("../images/1c_s.png");
 	background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -56,10 +68,22 @@
     transform:translateX(90px); /* 最初は元の位置より右にずらしておく */
 	aspect-ratio: 4 / 1; /*アスペクト比を固定*/
 }
+.actor-c.change {
+    background-image:url("../images/1c.png");
+	background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80vw;
+	margin-left: 10vw;
+    margin-right: 10vw;
+	margin-bottom: 1.5vh ;
+    opacity: 1; /* 最初は非表示にしておく */
+	aspect-ratio: 4 / 1; /*アスペクト比を固定*/
+}
 
 
 .actor-d {
-    background-image:url("../images/1d.png");
+    background-image:url("../images/1d_s.png");
 	background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -70,6 +94,18 @@
     opacity: 0; /* 最初は非表示にしておく */
     transition: all 2s; /* 動きを滑らかに */
     transform:translateX(-90px); /* 最初は元の位置より右にずらしておく */
+	aspect-ratio: 4 / 1; /*アスペクト比を固定*/
+}
+.actor-d.change {
+    background-image:url("../images/1d.png");
+	background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80vw;
+	margin-left: 10vw;
+    margin-right: 10vw;
+	margin-bottom: 1.5vh ;
+    opacity: 1; /* 最初は非表示にしておく */
 	aspect-ratio: 4 / 1; /*アスペクト比を固定*/
 }
 
