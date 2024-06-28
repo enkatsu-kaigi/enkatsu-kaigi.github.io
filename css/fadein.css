@@ -75,8 +75,22 @@
     aspect-ratio: 1280 / 944;
 }
 
+.actor1.change {
+    background-image:url("../images/1.jpg");
+	background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80vw;
+	margin-left: 10vw;
+    margin-right: 10vw;
+	margin-bottom: 5vh;
+    opacity: 1; /* 最初は非表示にしておく */
+    aspect-ratio: 1280 / 944;
+}
+
+
 .actor2 {
-    background-image:url("../images/2.jpg");
+    background-image:url("../images/2.png");
 	background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -86,6 +100,19 @@
 	margin-bottom: 5vh;
     opacity: 0; /* 最初は非表示にしておく */
     transition: all 2s; /* 動きを滑らかに */
+    aspect-ratio: 1280 / 944;
+}
+
+.actor2.change {
+    background-image:url("../images/2.jpg");
+	background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80vw;
+	margin-left: 10vw;
+    margin-right: 10vw;
+	margin-bottom: 5vh;
+    opacity: 1; /* 最初は非表示にしておく */
     aspect-ratio: 1280 / 944;
 }
 

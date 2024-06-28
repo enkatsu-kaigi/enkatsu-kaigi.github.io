@@ -19,6 +19,11 @@ $(function () {
         });
     });
 });
+
+
+
+
+
 //actor-b//
 $(function () {
     // ウィンドウをスクロールしたら…
@@ -113,6 +118,11 @@ $(function () {
     });
 });
 
+$(".actor1").on("click", function () {
+    $(this).toggleClass("change");
+  });
+
+
 //actor2//
 $(function () {
     // ウィンドウをスクロールしたら…
@@ -133,6 +143,11 @@ $(function () {
         });
     });
 });
+
+$(".actor2").on("click", function () {
+    $(this).toggleClass("change");
+  });
+
 
 //actor3//
 $(function () {
