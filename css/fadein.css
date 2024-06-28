@@ -117,11 +117,36 @@
 }
 
 .actor3 {
+    background-image:url("../images/3.png");
+	background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 5vw;
+    opacity: 0; /* 最初は非表示にしておく */
+    transition: all 2s; /* 動きを滑らかに */
+    aspect-ratio: 1280 / 944; /*アスペクト比を固定*/
+}
+.actor3.change {
     background-image:url("../images/3.jpg");
 	background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     width: 80vw;
+	margin-left: 10vw;
+    margin-right: 10vw;
+	margin-bottom: 5vh;
+    opacity: 1; /* 最初は非表示にしておく */
+    aspect-ratio: 1280 / 944;
+}
+.actor4 {
+    background-image:url("../images/4.png");
+	background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80vw;
     margin-left: 10vw;
     margin-right: 10vw;
     margin-bottom: 5vw;
@@ -129,23 +154,20 @@
     transition: all 2s; /* 動きを滑らかに */
     aspect-ratio: 1280 / 944; /*アスペクト比を固定*/
 }
-
-.actor4 {
+.actor4.change {
     background-image:url("../images/4.jpg");
 	background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     width: 80vw;
-    margin-left: 10vw;
+	margin-left: 10vw;
     margin-right: 10vw;
-    margin-bottom: 5vw;
-    opacity: 0; /* 最初は非表示にしておく */
-    transition: all 2s; /* 動きを滑らかに */
-    aspect-ratio: 1280 / 944; /*アスペクト比を固定*/
+	margin-bottom: 5vh;
+    opacity: 1; /* 最初は非表示にしておく */
+    aspect-ratio: 1280 / 944;
 }
-
 .actor5 {
-    background-image:url("../images/5.jpg");
+    background-image:url("../images/5.png");
 	background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -157,7 +179,18 @@
     transition: all 2s; /* 動きを滑らかに */
     aspect-ratio: 1280 / 944; /*アスペクト比を固定*/
 }
-
+.actor5.change {
+    background-image:url("../images/5.jpg");
+	background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80vw;
+	margin-left: 10vw;
+    margin-right: 10vw;
+	margin-bottom: 5vh;
+    opacity: 1; /* 最初は非表示にしておく */
+    aspect-ratio: 1280 / 944;
+}
 
 /* フェードイン用のクラス */
 .fadeIn {

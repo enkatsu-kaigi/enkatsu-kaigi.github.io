@@ -169,6 +169,10 @@ $(function () {
         });
     });
 });
+$(".actor3").on("click", function () {
+    $(this).toggleClass("change");
+  });
+
 
 //actor4//
 $(function () {
@@ -190,6 +194,10 @@ $(function () {
         });
     });
 });
+$(".actor4").on("click", function () {
+    $(this).toggleClass("change");
+  });
+
 
 //actor5//
 $(function () {
@@ -211,6 +219,10 @@ $(function () {
         });
     });
 });
+$(".actor5").on("click", function () {
+    $(this).toggleClass("change");
+  });
+
 
 //actor6//
 $(function () {
