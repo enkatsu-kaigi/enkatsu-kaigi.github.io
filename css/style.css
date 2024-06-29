@@ -16,9 +16,6 @@ body {
 }
 
 
-
-
-
 /*li, ur修正*/
 ul{
 	padding-left:0;
@@ -54,18 +51,20 @@ li{
 
 header {
 	width: 100%;
-	background-color: #a545c5aa;
-	font-size: 2.7vh;
-	margin-top: -5vh; /*強引にmarginマイナスにしてヘッダー上余白消した*/
-	margin-bottom: 5vh;
-	padding-top: 5%;
-	padding-bottom: 5%;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	position: relative; 
-	border-bottom: 1px solid; /*ヘッダー下線追加*/
-  }
+    background-color: #a545c5aa;
+    font-size: 2.7vh;
+    margin-top: -5vh; /*強引にmarginマイナスにしてヘッダー上余白消した*/
+    margin-bottom: 5vh;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative; 
+    border-bottom: 1px solid; /*ヘッダー下線追加*/
+
+}
+
 
 .gnavi__pc-style {
 	margin: 0 0 0 10%;
@@ -184,7 +183,7 @@ header {
 
 
 p {
-	line-height: 5vh;　/*行間設定*/
+	line-height: 4vh;　/*行間設定*/
 }
 
 .narrow {
@@ -219,7 +218,7 @@ p {
 
 
 .spacing {
-	margin: 3vh;
+	margin: 1vh;
 }
 
 a  {
