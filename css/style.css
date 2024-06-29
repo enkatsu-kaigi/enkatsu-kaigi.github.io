@@ -51,7 +51,7 @@ li{
 
 header {
 	width: 100%;
-    background-color: #a545c5aa;
+    background-color: #8a77b7;
     font-size: 2.7vh;
     margin-top: -5vh; /*強引にmarginマイナスにしてヘッダー上余白消した*/
     margin-bottom: 5vh;
@@ -277,3 +277,10 @@ footer {
 
   
   
+  /*------------------------------------------------------*/
+  .cre {
+	font-size: 1vh;
+	color: gray;
+	margin-left: 10%;
+	margin-right: 10%;
+  }
