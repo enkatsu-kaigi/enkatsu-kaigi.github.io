@@ -53,10 +53,9 @@ header {
 	width: 100%;
     background-color: #8a77b7;
     font-size: 2.7vh;
-    margin-top: -5vh; /*強引にmarginマイナスにしてヘッダー上余白消した*/
     margin-bottom: 5vh;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -220,6 +219,14 @@ p {
 .spacing {
 	margin: 1vh;
 }
+.spacing2 {
+	width: 80%;
+	height: 0.1vh;
+	margin-top: -1vh;
+	margin-bottom: -1vh;
+	display: flex;
+	justify-content: center;
+}
 
 a  {
 	color: black; /*リンクの色を黒から変化させない*/
@@ -250,6 +257,7 @@ footer {
 	margin-right: 10%;
 	margin-top: 5vh;
 	border: 1px solid;
+	border-radius: 2vh;
 }
 
 .margin-side {
@@ -283,4 +291,14 @@ footer {
 	color: gray;
 	margin-left: 10%;
 	margin-right: 10%;
+	word-break: keep-all;
+    overflow-wrap: break-word;
+  /* overflow-wrap: anywhere; が2024年1月8日現在で一番良い */
+  /*https://qiita.com/tamanyan/items/e37e76b7743c59235995*/
   }
+
+  .nikoyaka {
+	word-break: keep-all;
+    overflow-wrap: break-word;
+  }
+  /*原文を優先したため*/
