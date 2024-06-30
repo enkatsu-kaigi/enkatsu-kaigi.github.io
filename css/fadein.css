@@ -199,7 +199,7 @@
     width: 80vw;
 	margin-left: 10vw;
     margin-right: 10vw;
-	margin-bottom: 5vh;
+	margin-bottom: 5vw;
     opacity: 1; /* 最初は非表示にしておく */
     aspect-ratio: 1280 / 944;
 }
@@ -226,7 +226,7 @@
     width: 80vw;
 	margin-left: 10vw;
     margin-right: 10vw;
-	margin-bottom: 5vh;
+	margin-bottom: 5vw;
     opacity: 1; /* 最初は非表示にしておく */
     aspect-ratio: 1280 / 944;
 }
@@ -253,7 +253,7 @@
     width: 80vw;
 	margin-left: 10vw;
     margin-right: 10vw;
-	margin-bottom: 5vh;
+	margin-bottom: 5vw;
     opacity: 1; /* 最初は非表示にしておく */
     aspect-ratio: 1280 / 944;
 }
