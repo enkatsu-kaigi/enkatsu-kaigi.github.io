@@ -13,7 +13,7 @@ $(function () {
                 const bPosition = $(this).offset().top;
                 // スクロールした量が要素の高さを上回ったら
                 // その数値にウィンドウの高さを引き、最後に200pxを足す
-            if (wScroll > bPosition - wHeight + 500) {
+            if (wScroll > bPosition - wHeight + 450) {
                 $(this).addClass("fadeIn-side");
             }
         });
@@ -40,7 +40,7 @@ $(function () {
                 const bPosition = $(this).offset().top;
                 // スクロールした量が要素の高さを上回ったら
                 // その数値にウィンドウの高さを引き、最後に200pxを足す
-            if (wScroll > bPosition - wHeight + 500) {
+            if (wScroll > bPosition - wHeight + 450) {
                 $(this).addClass("fadeIn-side");
             }
         });
@@ -64,7 +64,7 @@ $(function () {
                 const bPosition = $(this).offset().top;
                 // スクロールした量が要素の高さを上回ったら
                 // その数値にウィンドウの高さを引き、最後に200pxを足す
-            if (wScroll > bPosition - wHeight + 500) {
+            if (wScroll > bPosition - wHeight + 450) {
                 $(this).addClass("fadeIn-side");
             }
         });
@@ -88,7 +88,7 @@ $(function () {
                 const bPosition = $(this).offset().top;
                 // スクロールした量が要素の高さを上回ったら
                 // その数値にウィンドウの高さを引き、最後に200pxを足す
-            if (wScroll > bPosition - wHeight + 500) {
+            if (wScroll > bPosition - wHeight + 450) {
                 $(this).addClass("fadeIn-side");
             }
         });
@@ -125,7 +125,7 @@ $(function () {
                 const bPosition = $(this).offset().top;
                 // スクロールした量が要素の高さを上回ったら
                 // その数値にウィンドウの高さを引き、最後に200pxを足す
-            if (wScroll > bPosition - wHeight + 500) {
+            if (wScroll > bPosition - wHeight + 450) {
                 $(this).addClass("fadeIn");
             }
         });
@@ -151,7 +151,7 @@ $(function () {
                 const bPosition = $(this).offset().top;
                 // スクロールした量が要素の高さを上回ったら
                 // その数値にウィンドウの高さを引き、最後に200pxを足す
-            if (wScroll > bPosition - wHeight + 500) {
+            if (wScroll > bPosition - wHeight + 450) {
                 $(this).addClass("fadeIn");
             }
         });
@@ -177,7 +177,7 @@ $(function () {
                 const bPosition = $(this).offset().top;
                 // スクロールした量が要素の高さを上回ったら
                 // その数値にウィンドウの高さを引き、最後に200pxを足す
-            if (wScroll > bPosition - wHeight + 500) {
+            if (wScroll > bPosition - wHeight + 450) {
                 $(this).addClass("fadeIn");
             }
         });
@@ -202,7 +202,7 @@ $(function () {
                 const bPosition = $(this).offset().top;
                 // スクロールした量が要素の高さを上回ったら
                 // その数値にウィンドウの高さを引き、最後に200pxを足す
-            if (wScroll > bPosition - wHeight + 500) {
+            if (wScroll > bPosition - wHeight + 450) {
                 $(this).addClass("fadeIn");
             }
         });
@@ -227,7 +227,7 @@ $(function () {
                 const bPosition = $(this).offset().top;
                 // スクロールした量が要素の高さを上回ったら
                 // その数値にウィンドウの高さを引き、最後に200pxを足す
-            if (wScroll > bPosition - wHeight + 500) {
+            if (wScroll > bPosition - wHeight + 450) {
                 $(this).addClass("fadeIn");
             }
         });
