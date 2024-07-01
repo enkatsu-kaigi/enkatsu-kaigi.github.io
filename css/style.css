@@ -300,5 +300,6 @@ footer {
   .nikoyaka {
 	word-break: keep-all;
     overflow-wrap: break-word;
+	overflow-wrap: anywhere;
   }
   /*原文を優先したため*/
