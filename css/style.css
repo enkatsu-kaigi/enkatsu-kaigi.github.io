@@ -303,3 +303,10 @@ footer {
 	overflow-wrap: anywhere;
   }
   /*原文を優先したため*/
+
+  .note {
+	font-size: 2vh;
+	color: gray;
+	margin-left: 10%;
+	margin-right: 10%;
+  }
