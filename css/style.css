@@ -61,6 +61,7 @@ header {
     align-items: center;
     position: relative; 
     border-bottom: 1px solid; /*ヘッダー下線追加*/
+	border-radius: 0vh 0vh 3vh 3vh;
 
 }
 
@@ -261,8 +262,8 @@ footer {
 }
 
 .margin-side {
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 3%;
+	margin-right: 3%;
 }
 
 .kaisei-decol-regular {
