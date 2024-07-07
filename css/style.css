@@ -311,3 +311,11 @@ footer {
 	margin-left: 10%;
 	margin-right: 10%;
   }
+
+  .attention {
+	color: red;
+  }
+
+  .serif {
+	font-family: serif;
+  }
